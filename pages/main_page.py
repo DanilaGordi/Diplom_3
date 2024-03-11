@@ -8,7 +8,6 @@ from data import Url
 class MainPage(BasePage):
     def __init__(self, driver):
         super().__init__(driver)
-        # self.order = None
 
     @allure.step("Получить количество добавлений ингредиента")
     def get_ingredient_count(self):
